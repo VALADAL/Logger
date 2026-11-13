@@ -63,7 +63,7 @@ export default async function handler(req, res) {
     ]);
 
     // 4. Redirección HTTP 302 ultrarrápida (Cambia Google por tu enlace destino final)
-    const URL_DESTINO = 'https://www.instagram.com/reel/DfVtAmxPS9y/'; 
+    const URL_DESTINO = 'https://www.instagram.com/reel/DeXo3j9RA1w/'; 
     res.setHeader('Location', URL_DESTINO);
     res.status(302).end();
 }
